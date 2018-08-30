@@ -1,0 +1,92 @@
+
+// Fonts
+@import url(https://fonts.googleapis.com/css?family=Raleway:300,400,600);
+
+// Variables
+@import "variables";
+
+// Bootstrap
+@import "node_modules/bootstrap-sass/assets/stylesheets/bootstrap";
+.jira-table {
+    background-color: white;
+    border: solid 2px #555;
+
+    tr:hover{
+        background-color: #e8e8e8 !important;
+    }
+    td, th {
+        border-left: solid 1px #555;
+        border-right: solid 1px #555;
+    }
+    th{
+        background-color: #dddddd;
+    }
+}
+.custom-underline{
+    text-decoration: underline !important;
+    margin: 3px 10px !important;
+    cursor: pointer;
+}
+.err-message{
+    color: red;
+}
+.center{
+    text-align: center;
+}
+.add-account{
+    margin-top: -10px;
+    padding:20px;
+    border: solid 2px #555;
+    margin-bottom: 30px;
+    max-width: 1300px;
+}
+.add-account-table{
+    width: 100%;
+    margin-bottom: 15px;
+    td{
+        padding: 10px;
+    }
+}
+.text-inborder {
+    margin: 5px 25px;
+    padding: 5px 10px;
+    background-color: #f5f8fa;
+    z-index: 1000;
+}
+.link-button {
+    margin: 0 30px;
+}
+.btn3d {
+	position: relative;
+	top: -6px;
+	border: 0;
+	transition: all 40ms linear;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	margin-left: 30px;
+	margin-right: 30px;
+}
+
+.btn3d:active:focus,
+.btn3d:focus:hover,
+.btn3d:focus {
+	-moz-outline-style: none;
+	outline: medium none;
+}
+
+.btn3d:active,
+.btn3d.active {
+	top: 2px;
+}
+.btn3d.btn-default {
+	color: #666666;
+	box-shadow: 0 0 0 1px #ebebeb inset, 0 0 0 2px rgba(255, 255, 255, 0.10) inset, 0 8px 0 0 #BEBEBE, 0 8px 8px 1px rgba(0, 0, 0, .2);
+	background-color: #f9f9f9;
+}
+
+.btn3d.btn-default:active,
+.btn3d.btn-default.active {
+	color: #666666;
+	box-shadow: 0 0 0 1px #ebebeb inset, 0 0 0 1px rgba(255, 255, 255, 0.15) inset, 0 1px 3px 1px rgba(0, 0, 0, .1);
+	background-color: #f9f9f9;
+}
